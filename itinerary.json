@@ -6,45 +6,84 @@
             "travelerPhone": "913-555-5555",
             "travelerEmail": "mike@denney.com"
         },
-    "destinations": [
+    "destinations": [ 
+        {
+            "location": "Paris",
+            "transportation": {
+                "mode": "flight",
+                "cost": 150
+            },
+            "arrivalDate": "10-10-25",
+            "departureDate": "10-25-25",
+            "activities": [
+                {
+                    "title": "Eiffel Tower",
+                    "activityDate": "10-12-25",
+                    "time": "10:00 AM",
+                    "cost": 40
+                },
+                {
+                    "title": "Notre Dame Cathedral of Paris (under construction)",
+                    "activityDate": "10-14-25",
+                    "time": "10:00 AM",
+                    "cost": 25
+                }
+            ]
+        },
         {
             "location": "Liberia, CR",
+            "transportation": {
+                "mode": "flight",
+                "cost": 200
+            },
             "arrivalDate": "11-07-25",
             "departureDate": "11-07-25",
             "activities": [
                 {
                     "title": "Flight In",
                     "activityDate": "11-07-25",
-                    "time": "2:20 PM"
+                    "time": "2:20 PM",
+                    "cost": 65
                 }
             ]
         },
         {
             "location": "La Fortuna, CR",
+            "transportation": {
+                "mode": "Drive",
+                "cost": 120
+            },
             "arrivalDate": "11-07-25",
             "departureDate": "11-12-25",
             "activities": [
                 {
                     "title": "Birthday Dinner",
                     "activityDate": "11-10-25",
-                    "time": "7:00 PM"
+                    "time": "7:00 PM",
+                    "cost": 65
                 },
                 {
                     "title": "Zipline",
                     "activityDate": "11-09-25",
-                    "time": "10:00 AM"
+                    "time": "10:00 AM", 
+                    "cost": 80
                 }
             ]
         },
         {
             "location": "Houston, TX",
+            "transportation": {
+                "mode": "Drive",
+                "cost": 140
+            },
             "arrivalDate": "11-13-25",
             "departureDate": "11-13-25",
             "activities": [
                 {
                     "title": "Fly Home",
                     "activityDate": "11-13-25",
-                    "time": "11:10 PM"
+                    "time": "11:10 PM",
+                    "cost": 120
                 }
             ]
         }
